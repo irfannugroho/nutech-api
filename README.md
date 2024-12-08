@@ -2,8 +2,8 @@
 ## Deskripsi
 Nutech-API adalah aplikasi berbasis Node.js (Express.js) yang menyediakan layanan untuk:
 1. Registrasi dan login pengguna
-2. Manajemen saldo pengguna (cek saldo dan top-up)
-3. Layanan transaksi pembayaran
+2. Manajemen saldo pengguna / cek saldo
+3. Layanan top-up dan transaksi pembayaran
 
 API ini menggunakan JWT untuk autentikasi dan MySQL sebagai database.
 
