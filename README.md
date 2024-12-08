@@ -89,6 +89,7 @@ Menyimpan data transaksi pengguna.
 
 #### Request:
 - **Body** (JSON):
+  
   ```json
 {
   "email": "user@nutech-integrasi.com",
@@ -96,7 +97,7 @@ Menyimpan data transaksi pengguna.
   "last_name": "Nutech",
   "password": "abcdef1234"
 }
-  ```
+```
 
 #### Response:
 - **200 OK**:
