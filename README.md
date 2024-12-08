@@ -4,6 +4,7 @@ Nutech-API adalah aplikasi berbasis Node.js (Express.js) yang menyediakan layana
 1. Registrasi dan login pengguna
 2. Manajemen saldo pengguna (cek saldo dan top-up)
 3. Layanan transaksi pembayaran
+
 API ini menggunakan JWT untuk autentikasi dan MySQL sebagai database.
 
 ## Endpoint API
@@ -20,7 +21,7 @@ Body (JSON):
   "last_name": "Doe",
   "password": "password123"
 }
-
+ bash```
 Response:
 200 OK:
 
