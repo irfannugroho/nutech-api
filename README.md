@@ -7,21 +7,6 @@ Nutech-API adalah aplikasi berbasis Node.js (Express.js) yang menyediakan layana
 
 API ini menggunakan JWT untuk autentikasi dan MySQL sebagai database.
 
-Berikut adalah contoh dokumentasi **README.md** yang mencakup keseluruhan API, termasuk cara setup, daftar endpoint, dan informasi penting lainnya.
-
----
-
-# **Nutech API Documentation**
-
-## **Deskripsi**
-Nutech API adalah aplikasi berbasis Node.js yang menyediakan layanan untuk:
-- **Registrasi dan login pengguna**
-- **Manajemen saldo pengguna** (cek saldo dan top-up)
-- **Layanan transaksi pembayaran**
-
-API ini menggunakan **JWT** untuk autentikasi dan **MySQL** sebagai database.
-
----
 
 ## **Daftar Isi**
 1. [Setup Aplikasi](#setup-aplikasi)
@@ -41,34 +26,23 @@ API ini menggunakan **JWT** untuk autentikasi dan **MySQL** sebagai database.
 
 1. **Clone Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/irfannugroho/nutech-api.git
+   cd nutech-api
    ```
 
 2. **Install Dependencies**
-   Pastikan Anda memiliki **Node.js** dan **npm** terinstal, lalu jalankan:
+   Pastikan sudah memiliki **Node.js** dan **npm** terinstal, lalu jalankan:
    ```bash
    npm install
    ```
 
-3. **Setup Environment Variables**
-   Buat file `.env` di root folder dan tambahkan konfigurasi berikut:
-   ```
-   DB_HOST=127.0.0.1
-   DB_USER=root
-   DB_PASSWORD=your_password
-   DB_NAME=nutechtestdb
-   JWT_SECRET=your_jwt_secret
-   PORT=3000
-   ```
-
-4. **Setup Database**
+3. **Setup Database**
    - Import file `schema.sql` untuk membuat database dan tabel:
      ```bash
-     mysql -u root -p < database/schema.sql
+     mysql -u root -p < schema.sql
      ```
 
-5. **Jalankan Server**
+4. **Jalankan Server**
    ```bash
    npm start
    ```
@@ -78,7 +52,7 @@ API ini menggunakan **JWT** untuk autentikasi dan **MySQL** sebagai database.
 
 ## **Konfigurasi Database**
 
-Struktur database didefinisikan dalam file [schema.sql](database/schema.sql). Berikut adalah detailnya:
+Struktur database didefinisikan dalam file [schema.sql] (schema.sql). Berikut adalah detailnya:
 
 ### Tabel `users`
 Menyimpan data pengguna.
@@ -294,21 +268,3 @@ Menyimpan data transaksi pengguna.
 
 ---
 
-## **Teknologi yang Digunakan**
-- **Node.js**: Framework untuk backend.
-- **Express**: Web framework untuk Node.js.
-- **MySQL**: Database relasional untuk penyimpanan data.
-- **JWT**: Untuk autentikasi pengguna.
-- **bcrypt**: Untuk hashing password pengguna.
-
----
-
-Jika Anda memiliki pertanyaan atau menemukan masalah, jangan ragu untuk menghubungi pengembang atau membuat issue di repository ini. 😊
-
-## Setup Database
-
-1. Pastikan Anda sudah memiliki MySQL atau MariaDB terinstal.
-2. Jalankan file `schema.sql` untuk membuat database dan tabel yang diperlukan.
-
-   ```bash
-   mysql -u root -p < schema.sql
