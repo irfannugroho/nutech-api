@@ -131,7 +131,7 @@ Menyimpan data transaksi pengguna.
   {
   "email": "user@nutech-integrasi.com",
   "password": "abcdef1234"
-}
+  }
 ```
 
 #### Response:
