@@ -127,11 +127,12 @@ Menyimpan data transaksi pengguna.
 
 #### Request:
 - **Body** (JSON):
-  ```json{
+  ```json
+  {
   "email": "user@nutech-integrasi.com",
   "password": "abcdef1234"
 }
-  ```
+```
 
 #### Response:
 - **200 OK**:
