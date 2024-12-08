@@ -97,6 +97,7 @@ Menyimpan data transaksi pengguna.
   "last_name": "Nutech",
   "password": "abcdef1234"
 }
+```
 
 #### Response:
 - **200 OK**:
