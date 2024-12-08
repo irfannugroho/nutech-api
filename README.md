@@ -132,10 +132,9 @@ Menyimpan data transaksi pengguna.
   "email": "user@nutech-integrasi.com",
   "password": "abcdef1234"
   }
-```
+    ```
 
-### Response :
-
+#### Response:
 - **200 OK**:
   ```json
   {
@@ -146,6 +145,7 @@ Menyimpan data transaksi pengguna.
     }
   }
   ```
+
 
 - **401 Unauthorized**:
   Jika username atau password salah:
