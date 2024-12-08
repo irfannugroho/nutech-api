@@ -52,7 +52,7 @@ API ini menggunakan JWT untuk autentikasi dan MySQL sebagai database.
 
 ## **Konfigurasi Database**
 
-Struktur database didefinisikan dalam file [schema.sql] (schema.sql). Berikut adalah detailnya:
+Struktur database didefinisikan dalam file [schema.sql]. Berikut adalah detailnya:
 
 ### Tabel `users`
 Menyimpan data pengguna.
@@ -90,12 +90,12 @@ Menyimpan data transaksi pengguna.
 #### Request:
 - **Body** (JSON):
   ```json
-  {
-    "email": "user@example.com",
-    "first_name": "John",
-    "last_name": "Doe",
-    "password": "password123"
-  }
+{
+  "email": "user@nutech-integrasi.com",
+  "first_name": "User",
+  "last_name": "Nutech",
+  "password": "abcdef1234"
+}
   ```
 
 #### Response:
@@ -127,10 +127,10 @@ Menyimpan data transaksi pengguna.
 #### Request:
 - **Body** (JSON):
   ```json
-  {
-    "email": "user@example.com",
-    "password": "password123"
-  }
+{
+  "email": "user@nutech-integrasi.com",
+  "password": "abcdef1234"
+}
   ```
 
 #### Response:
